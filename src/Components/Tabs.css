@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 5%;
+  color: linear-gradient(145deg, #4f4f4f 0%, #282828 100%);
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+  overflow: hidden;
+}
+.tabSection {
+  display: block;
+  background-color: #3f3f3f;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 4vh;
+}
+
+.unselectedTab {
+  background-color: transparent;
+  height: 169px;
+  width: 160px;
+  margin: 2%;
+  border-style: solid;
+  border-width: medium;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.9px;
+  transition: color 0.5s;
+}
+
+.selectedTab {
+  background-color: white;
+  color: black;
+  height: 169px;
+  width: 160px;
+  margin: 2%;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.9px;
+  transition: color 0.5s;
+}
+
+.titleText {
+  text-align: left;
+  padding: 8vh;
+  width: 100%;
+}
+.contactButton {
+  border-radius: 60px;
+  background-color: yellow;
+  color: black;
+  float: right;
+  width: 20vh;
+  height: 5vh;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 10%;
+  transition: color 0.4s;
+}
+.contactButton:hover {
+  border-radius: 60px;
+  background-color: yellow;
+  color: white;
+  text-shadow: 1px 1px black;
+  float: right;
+  width: 20vh;
+  height: 5vh;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 10%;
+}
+.Tabs {
+  padding-left: 2%;
+  transition: color 0.5s;
+}
+.Tabs :hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.offHover {
+  display: inline;
+  transition: display 0.5s;
+}
+.offHover:hover {
+  display: none;
+}
+.onHover {
+  display: none;
+  transition: display 0.5s;
+}
+
+.onHover:hover {
+  display: inline;
+}
+
+.tabDescription {
+  display: flex;
+  padding-right: 6%;
+  padding-top: 5%;
+  transition: 1s;
+}
+
+.tabInfo {
+  float: left;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding-right: 15%;
+  line-height: 32px;
+}
+
+.tabImages {
+  display: inline-flex;
+  margin-top: 8%;
+  padding-left: 50px;
+  padding: 15px;
+}
+
+.tabImages img {
+  border: solid 1px rgb(228, 227, 227);
+  background-size: cover;
+  padding: 5px;
+  margin: 10px;
+}
+
+.tabInfo p {
+  float: left;
+  margin: 0 0 20px;
+}
+.fa-italic ::before {
+  content: "\f033";
+  font-weight: 900;
+  font-size: 32px;
+  color: #ffcc29;
+}
